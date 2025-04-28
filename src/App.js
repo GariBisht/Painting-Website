@@ -11,7 +11,7 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 // import HooksBrushContainer from './components/HooksBrushContainer';
-import ColorContainer from './components/ColorContainer';
+// import ColorContainer from './components/ColorContainer';
 
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
  <Home />
  <Design />
  {/* <HooksBrushContainer /> */}
- <Brushcontainer/>
- <ColorContainer />
+ {/* <Brushcontainer/> */}
+ {/* <ColorContainer /> */}
  <Blogs />
   <Contact/>
   <Footer /> 

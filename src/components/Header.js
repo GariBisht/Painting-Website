@@ -35,21 +35,21 @@ function Header() {
       <header class="header">
         {/* <canvas width="1050" height="117" style="z-index: 2; position: absolute; pointer-events: none; inset: 0px;"></canvas>  */}
         <a href="#" class="logo">
-          <img src="images/Logo.png" alt="Paint With Me" />
+          <img src="images/logo.png" alt="Paint With Me" />
         </a>
         <div style={{width:'30%'}}>
 
         <Confetti
         style={{position:'unset'}}
-  recycle ={show}
-  numberOfPieces={300}
-  width = {900}
-  height ={110}
-  />
+        recycle ={show}
+        numberOfPieces={300}
+        width = {900}
+        height ={110}
+        />
         </div>
 
         <nav class="navbar">
-          <div className="App" >
+          {/* <div className="App" > */}
             <div onMouseEnter={() => handleShow(true)}
               onMouseLeave={() => handleShow(false)}
               className="confetti-wrap"
@@ -103,26 +103,8 @@ function Header() {
                 {/*<input type="search" id="search-box" placeholder="search here..."/>
 */}
 
-                <div style={{ padding: '10px' }}>
-                <div class="search-form">
-              <div class="icons">
-                <div class="fas fa-search" id="search-btn"></div>
-                <div class="fas fa-bars" id="menu-btn"></div>
-
-
-                  <input className={'form-control'} ref={inputRef} type='text' />
-                  {/*<h3>Search</h3> */}
-                  {console.log(inputRef)}
-                </div>
-              </div>
-              {/*<Confetti
-  recycle ={show}
-  numberOfPieces={200}
-  width = {width}
-  height ={height}
-/> */}
-            </div>
-          </div>
+              
+            
         </nav>
 
 
