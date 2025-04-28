@@ -35,7 +35,7 @@ function Header() {
       <header class="header">
         {/* <canvas width="1050" height="117" style="z-index: 2; position: absolute; pointer-events: none; inset: 0px;"></canvas>  */}
         <a href="#" class="logo">
-          <img src="images/logo.png" alt="Paint With Me" />
+          <img src="images/gblogo.jpg" alt="Paint With Me" />
         </a>
         <div style={{width:'30%'}}>
 
